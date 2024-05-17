@@ -12,6 +12,16 @@ public class Dealership {
         this.address = address;
         this.phone = phone;
     }
-    public
+
+
+    public String getName(){
+        return name;
+    }
+    public String getAddress(){
+        return address;
+    }
+    public String getPhone (){
+        return phone;
+    }
 
 }
